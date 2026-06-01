@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2026 Kwezal
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+  ~ or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources>
+    <color name="emerald1">#DEFF7A</color>
+    <color name="emerald2">#C4FF14</color>
+    <color name="emerald3">#89EB00</color>
+    <color name="emerald4">#55CC00</color>
+    <color name="emerald5">#00AD0E</color>
+    <color name="emerald6">#00850B</color>
+    <color name="emerald7">#005C0F</color>
+    <color name="turquoise1">#ADFFDD</color>
+    <color name="turquoise2">#5CFFC9</color>
+    <color name="turquoise3">#00EBB0</color>
+    <color name="turquoise4">#00CCBB</color>
+    <color name="turquoise5">#00A3A3</color>
+    <color name="turquoise6">#00707A</color>
+    <color name="turquoise7">#004D5C</color>
+    <color name="sapphire1">#B8F3FF</color>
+    <color name="sapphire2">#70E7FF</color>
+    <color name="sapphire3">#47C2FF</color>
+    <color name="sapphire4">#2994FF</color>
+    <color name="sapphire5">#006AFF</color>
+    <color name="sapphire6">#0044CC</color>
+    <color name="sapphire7">#00308F</color>
+    <color name="amethyst1">#F5D6FF</color>
+    <color name="amethyst2">#EBADFF</color>
+    <color name="amethyst3">#D685FF</color>
+    <color name="amethyst4">#BB5CFF</color>
+    <color name="amethyst5">#9429FF</color>
+    <color name="amethyst6">#6600F5</color>
+    <color name="amethyst7">#4800AD</color>
+    <color name="spinel1">#FFCCEA</color>
+    <color name="spinel2">#FFADDD</color>
+    <color name="spinel3">#FF85D6</color>
+    <color name="spinel4">#FF5CC9</color>
+    <color name="spinel5">#FF29B8</color>
+    <color name="spinel6">#CC0088</color>
+    <color name="spinel7">#8F005F</color>
+    <color name="ruby1">#FFCCD5</color>
+    <color name="ruby2">#FF99AA</color>
+    <color name="ruby3">#FF7088</color>
+    <color name="ruby4">#FF4766</color>
+    <color name="ruby5">#FF144F</color>
+    <color name="ruby6">#CC0044</color>
+    <color name="ruby7">#85002C</color>
+    <color name="amber1">#FFDBB8</color>
+    <color name="amber2">#FFB870</color>
+    <color name="amber3">#FF9E3D</color>
+    <color name="amber4">#FF7C1F</color>
+    <color name="amber5">#FF5500</color>
+    <color name="amber6">#B83D00</color>
+    <color name="amber7">#7A2900</color>
+    <color name="gold1">#FFF68F</color>
+    <color name="gold2">#FFEE33</color>
+    <color name="gold3">#FFDB29</color>
+    <color name="gold4">#FFBF00</color>
+    <color name="gold5">#EB9C00</color>
+    <color name="gold6">#8F5300</color>
+    <color name="gold7">#5C3600</color>
+    <color name="silver1">#F9FAFB</color>
+    <color name="silver2">#DFE4EC</color>
+    <color name="silver3">#BFCAD9</color>
+    <color name="silver4">#97A5BA</color>
+    <color name="silver5">#6C7C93</color>
+    <color name="silver6">#49596E</color>
+    <color name="silver7">#263140</color>
+    <color name="onyx">#000000</color>
+</resources>
