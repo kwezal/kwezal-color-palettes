@@ -1,0 +1,82 @@
+/*
+ * Copyright 2026 Kwezal
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+ * or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+:root {
+    --emerald-1: #DEFF7A;
+    --emerald-2: #C4FF14;
+    --emerald-3: #89EB00;
+    --emerald-4: #55CC00;
+    --emerald-5: #00AD0E;
+    --emerald-6: #00850B;
+    --emerald-7: #005C0F;
+    --turquoise-1: #ADFFDD;
+    --turquoise-2: #5CFFC9;
+    --turquoise-3: #00EBB0;
+    --turquoise-4: #00CCBB;
+    --turquoise-5: #00A3A3;
+    --turquoise-6: #00707A;
+    --turquoise-7: #004D5C;
+    --sapphire-1: #B8F3FF;
+    --sapphire-2: #70E7FF;
+    --sapphire-3: #47C2FF;
+    --sapphire-4: #2994FF;
+    --sapphire-5: #006AFF;
+    --sapphire-6: #0044CC;
+    --sapphire-7: #00308F;
+    --amethyst-1: #F5D6FF;
+    --amethyst-2: #EBADFF;
+    --amethyst-3: #D685FF;
+    --amethyst-4: #BB5CFF;
+    --amethyst-5: #9429FF;
+    --amethyst-6: #6600F5;
+    --amethyst-7: #4800AD;
+    --spinel-1: #FFCCEA;
+    --spinel-2: #FFADDD;
+    --spinel-3: #FF85D6;
+    --spinel-4: #FF5CC9;
+    --spinel-5: #FF29B8;
+    --spinel-6: #CC0088;
+    --spinel-7: #8F005F;
+    --ruby-1: #FFCCD5;
+    --ruby-2: #FF99AA;
+    --ruby-3: #FF7088;
+    --ruby-4: #FF4766;
+    --ruby-5: #FF144F;
+    --ruby-6: #CC0044;
+    --ruby-7: #85002C;
+    --amber-1: #FFDBB8;
+    --amber-2: #FFB870;
+    --amber-3: #FF9E3D;
+    --amber-4: #FF7C1F;
+    --amber-5: #FF5500;
+    --amber-6: #B83D00;
+    --amber-7: #7A2900;
+    --gold-1: #FFF68F;
+    --gold-2: #FFEE33;
+    --gold-3: #FFDB29;
+    --gold-4: #FFBF00;
+    --gold-5: #EB9C00;
+    --gold-6: #8F5300;
+    --gold-7: #5C3600;
+    --silver-1: #F9FAFB;
+    --silver-2: #DFE4EC;
+    --silver-3: #BFCAD9;
+    --silver-4: #97A5BA;
+    --silver-5: #6C7C93;
+    --silver-6: #49596E;
+    --silver-7: #263140;
+    --onyx: #000000;
+}
