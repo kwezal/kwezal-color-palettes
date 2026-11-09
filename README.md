@@ -5,7 +5,7 @@ and a POSIX-compliant shell script that generates ready-to-use assets for apps a
 
 ## Supported applications
 
-- Websites and web apps (`*.css`, `*.scss`)
+- Websites and web apps (`*.css`, `*.js`, `*.scss`, `*.ts`)
 - Flutter apps (`*.dart`)
 - GIMP, Inkscape, Krita (`*.gpl`)
 - iOS/macOS apps (`Color+Extensions.swift`)

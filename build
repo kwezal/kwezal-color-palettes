@@ -29,6 +29,7 @@ build_palette() {
   css_content=''
   dart_content=''
   gpl_content=''
+  js_content=''
   scss_content=''
   swift_content=''
   xml_content=''
@@ -70,6 +71,7 @@ build_palette() {
     css_content="$css_content$separator    --$id_dash: #$hex;"
     dart_content="$dart_content$separator  static const $id_lower = Color(0x$hex);"
     gpl_content="$gpl_content$separator$(printf '%3s' "$red") $(printf '%3s' "$green") $(printf '%3s' "$blue") $id_capitalized"
+    js_content="$js_content$separator    $id_lower: '#$hex',"
     scss_content="$scss_content$separator\$$id_dash: #$hex;"
     swift_content="$swift_content$separator    static let $id_lower = Color(red: $red.0 / 255.0, green: $green.0 / 255.0, blue: $blue.0 / 255.0)"
     xml_content="$xml_content$separator    <color name=\"$id_lower\">#$hex</color>"
@@ -87,6 +89,10 @@ build_palette() {
     '{gsub(/ClassName/,palette_class_name) gsub(/[[:blank:]]*\/\/content/,palette_content); print}' \
     'templates/template.dart' >"$output_dir/$palette_class_name.dart"
 
+  awk -v palette_content="$js_content" \
+    '{gsub(/[[:blank:]]*\/\/content/,palette_content); print}' \
+    'templates/template.js' >"$output_dir/$palette_class_name_kebab.js"
+
   awk -v palette_content="$gpl_content" \
     -v palette_name="$palette_name" \
     -v palette_url="$palette_url" \
@@ -100,6 +106,10 @@ build_palette() {
   awk -v palette_content="$swift_content" \
     '{gsub(/[[:blank:]]*\/\/content/,palette_content); print}' \
     'templates/template.swift' >"$output_dir/Color+Extensions.swift"
+
+  awk -v palette_content="$js_content" \
+    '{gsub(/[[:blank:]]*\/\/content/,palette_content); print}' \
+    'templates/template.ts' >"$output_dir/$palette_class_name_kebab.ts"
 
   awk -v palette_content="$xml_content" \
     '{gsub(/[[:blank:]]*<!--content-->/,palette_content); print}' \
