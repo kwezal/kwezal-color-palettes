@@ -79,12 +79,12 @@ build_palette() {
   palette_class_name_kebab=$(echo "$palette_class_name" | tr '_' '-')
 
   awk -v palette_content="$css_content" \
-    '{gsub(/\s*\/\*content\*\//,palette_content); print}' \
+    '{gsub(/[[:blank:]]*\/\*content\*\//,palette_content); print}' \
     'templates/template.css' >"$output_dir/$palette_class_name_kebab.css"
 
   awk -v palette_content="$dart_content" \
     -v palette_class_name="$palette_class_name_camel" \
-    '{gsub(/ClassName/,palette_class_name) gsub(/\s*\/\/content/,palette_content); print}' \
+    '{gsub(/ClassName/,palette_class_name) gsub(/[[:blank:]]*\/\/content/,palette_content); print}' \
     'templates/template.dart' >"$output_dir/$palette_class_name.dart"
 
   awk -v palette_content="$gpl_content" \
@@ -98,11 +98,11 @@ build_palette() {
     'templates/template.scss' >"$output_dir/$palette_class_name_kebab.scss"
 
   awk -v palette_content="$swift_content" \
-    '{gsub(/\s*\/\/content/,palette_content); print}' \
+    '{gsub(/[[:blank:]]*\/\/content/,palette_content); print}' \
     'templates/template.swift' >"$output_dir/Color+Extensions.swift"
 
   awk -v palette_content="$xml_content" \
-    '{gsub(/\s*<!--content-->/,palette_content); print}' \
+    '{gsub(/[[:blank:]]*<!--content-->/,palette_content); print}' \
     'templates/template.xml' >"$output_dir/colors.xml"
 }
 
